@@ -49,5 +49,5 @@ az container create \
     AZURE_DEVOPS_USE_SERVICE_PRINCIPAL=false \
     AZURE_DEVOPS_PAT="$AZURE_DEVOPS_PAT" \
     FEED_PROMPT_TEMPLATE_URI="https://gist.githubusercontent.com/MoimHossain/929bff56a45f31466eb1cd7bc05d9248/raw/8031be143fbe58ce63bb6d5ad61c8146bb299366/FeedPromptTemplate.txt" \
-    FEED_WORKITEM_TEMPLATE_URI="https://gist.githubusercontent.com/MoimHossain/929bff56a45f31466eb1cd7bc05d9248/raw/44b483059962ccbac9e36250c0ff1bd66543f592/FeedCustomTemplate.json" \
-    POLICY_WORKITEM_TEMPLATE_URI="https://gist.githubusercontent.com/MoimHossain/929bff56a45f31466eb1cd7bc05d9248/raw/89cc625548129d8da69bb47a908a9baac56a5f76/PolicyCustomTemplate.json"
+    FEED_WORKITEM_TEMPLATE_URI="https://gist.githubusercontent.com/damayantiazure/524ce416fb3e63b07b6ce0b869fd321b/raw/ee64445ef5e5deb3cfc9fcbd0e0219fde80642be/FeedWorkItemTemplateNew.json" \
+    POLICY_WORKITEM_TEMPLATE_URI="https://gist.githubusercontent.com/damayantiazure/ba95444da66ced0a02b176522b8f740c/raw/beb47c21948da7d43ec122858ff9465ae003f019/PolicyWorkItemTemplateNew.json"
