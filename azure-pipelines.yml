@@ -74,8 +74,7 @@ stages:
           workloadEnv: $(workloadEnv)
           registryURI: $(registryURI)
           imageName: $(imageName)
-          imageTag: $(Build.BuildId)
-          GTIHUB_PAT: $(GTIHUB_PAT)
+          imageTag: $(Build.BuildId)          
           STORAGE_ACCOUNT: $(workloadName)storageacc$(workloadEnv)
           AZURE_DEVOPS_ORGNAME: damayantibhuyan
           AZURE_DEVOPS_PAT: $(AZURE_DEVOPS_PAT)
