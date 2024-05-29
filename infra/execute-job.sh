@@ -32,7 +32,7 @@ az container create \
     --environment-variables \
     PROCESS_AZURE_POLICY=true \
     PROCESS_AZURE_FEED=true \
-    GITHUB_PAT="$GTIHUB_PAT" \
+    GITHUB_PAT="" \
     AZURE_POLICY_URI_BASE="https://api.github.com/repos/azure/azure-policy/contents/" \
     AZURE_POLICY_PATH="built-in-policies/policyDefinitions" \
     AZURE_UPDATE_FEED_URI="https://azurecomcdn.azureedge.net/en-us/updates/feed/" \
